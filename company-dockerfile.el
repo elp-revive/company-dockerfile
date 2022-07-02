@@ -80,6 +80,7 @@
         (push item res)))
     res))
 
+;;;###autoload
 (defun company-dockerfile (command &optional arg &rest ignored)
   "Dockerfile backend for company mode."
   (interactive (list 'interactive))
