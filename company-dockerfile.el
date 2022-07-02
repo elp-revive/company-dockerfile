@@ -2,11 +2,11 @@
 
 ;; Author: takeokunn
 ;; Maintainer: takeokunn
+;;             Jen-Chieh Shen <jcs090218@gmail.com>
 ;; Version: 0.1
-;; Package-Requires: ("company-mode" "dockerfile-mode")
-;; Homepage: https://github.com/takeokunn/company-dockerfile
-;; Keywords: company-dockerfile company-mode dockerfile-mode
-
+;; Package-Requires: ((emacs "24.4") (company-mode "0.6.7") (dockerfile-mode "1.0"))
+;; Homepage: https://github.com/elp-revive/company-dockerfile
+;; Keywords: convenience
 
 ;; This file is not part of GNU Emacs
 
@@ -35,6 +35,7 @@
 ;;; Code:
 
 (require 'cl-lib)
+
 (require 'company)
 (require 'dockerfile-mode)
 
@@ -89,5 +90,4 @@
     (candidates (company-dockerfile--candidates arg))))
 
 (provide 'company-dockerfile)
-
 ;;; company-dockerfile.el ends here
