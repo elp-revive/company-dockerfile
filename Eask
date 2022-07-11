@@ -8,6 +8,7 @@
 (package-file "company-dockerfile.el")
 
 (source "gnu")
+(source "melpa")
 
 (depends-on "emacs" "24.4")
 (depends-on "company")
