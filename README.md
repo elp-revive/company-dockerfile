@@ -3,6 +3,8 @@
 
 # company-dockerfile
 
+[![CI](https://github.com/elp-revive/company-dockerfile/actions/workflows/test.yml/badge.svg)](https://github.com/elp-revive/company-dockerfile/actions/workflows/test.yml)
+
 Add dockerfile keywords to company-mode keywords alist.
 
 ## Config
