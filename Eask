@@ -10,3 +10,5 @@
 (source "gnu")
 
 (depends-on "emacs" "24.4")
+(depends-on "company")
+(depends-on "dockerfile-mode")
