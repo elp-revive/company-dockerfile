@@ -1,3 +1,5 @@
+;; -*- mode: eask; lexical-binding: t -*-
+
 (package "company-dockerfile"
          "0.1"
          "Company mode backend for dockefile")
